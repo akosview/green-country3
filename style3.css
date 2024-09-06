@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    top: 0;
+    margin: 0;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background: #1E1B1AD9;
+}
+
+.logo {
+    width: 138.26px;
+    height: 65.62px;
+}
+
+.header_menu {
+    display: flex;
+}
+
+.menu_item {
+    list-style: none;
+}
+
+.menu_item:not(:last-child) {
+    margin-right: 47px;
+}
+
+.menu_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.lang_list {
+    display: flex;
+}
+
+.lang_item {
+    list-style: none;
+}
+
+.lang_item:not(:last-child) {
+    margin-right: 14px;
+}
+
+.lang_link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.header_contact {
+    display: flex;
+}
+
+.contact_icon {
+    margin-right: 3px;
+}
+
+.contact_tel {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main_content {
+    background-image: url('img3/image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 314px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.content_title {
+    font-family: Montserrat;
+    font-size: 64.68px;
+    font-weight: 600;
+    line-height: 74px;
+    width: 597px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-left: 85px;
+}
+
+.page_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 56px;
+    margin-bottom: 98px;
+}
+
+.info_element {
+    display: flex;
+    align-items: center;
+}
+
+.info_element:not(:last-child) {
+    margin-bottom: 46px;
+}
+
+.info_icon {
+    margin-right: 10px;
+}
+
+.info_title {
+    font-family: Montserrat;
+    font-size: 15.55px;
+    font-weight: 400;
+    line-height: 25.27px;
+    color: #888888;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info_text {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #292929;
+    width: 214px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info_image {
+    margin-left: 40px;
+}
+
+
+.footer {
+    background: #313131;
+    height: 331px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product_title, .contact_title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    letter-spacing: 0.02em;
+    color: #E8E8E8;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+
+.product_item , .contact_item, .telefon_item {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.product_link, .contact_link, .telefon_link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    color: #E8E8E8;
+}
+
+.footer_line {
+    border: 0.5px solid #CBCBCB80;
+    width: 1380px;
+    margin-left: 75px;
+    margin-top: 39px;
+}
+
+.footer_text {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.85px;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+    margin-left: 75px;
+    margin-top: 22px;
+}
+
+.contact_telefon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.product_icon, .address_icon, .email_icon {
+    margin-right: 16px;
+}
+
+.telefon_list {
+    margin-top: 60px;
+}
+
+
+.footer_contacts {
+    margin-top: 23px;
+}
+
+.contact_img {
+    margin-right: -20px;
+}
+
+.contact_link {
+    margin: 0;
+}
+
+.contact_item {
+    display: flex;
+    align-items: center;
+}
