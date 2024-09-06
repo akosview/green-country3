@@ -79,7 +79,7 @@ body {
 }
 
 .main_content {
-    background-image: url('img3/image.jpg');
+    background-image: url('img/image.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
